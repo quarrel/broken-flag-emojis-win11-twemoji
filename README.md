@@ -10,14 +10,14 @@ This works for me on the current Insiders build Version 25H2 (26200.5742) in Aug
 
 I personally prefer the Twemoji versions because of the non-wavy flags, as the wavy flags of Apple and Google's Noto Emoji font render poorly when sized small.
 
-(I have also included a version of the Twemoji font that has the name table from the Apple Color Emoji font, another commonly used fallback font on the web. Personally, I have both installed, but if you don't have Apple Color Emoji it should always fallback to Segoe UI Emoji on Windows anyway.)
+I have also included a version of the Twemoji font that has the name table from the Apple Color Emoji font, another commonly used fallback font on the web. Personally, I have both installed, but if you don't have Apple Color Emoji it should always fallback to Segoe UI Emoji on Windows anyway.
 
 There are various browser extensions, user scripts and other hacks that do this, but this way is cleaner and more performant IMHO. I am not the first person to think of this, [@perguto](https://github.com/perguto), for instance, has [Country Flag Emojis for Windows](https://github.com/perguto/Country-Flag-Emojis-for-Windows), based on the Noto Emoji, but lots of people seem to suggest that it is no longer working. Copying the full name table, as shown below, rather than just updating the name, may be the reason this is working better for me?
 
 ## Installation
 
 1.  **Download the font:**
-    *   [**Segoe UI Emoji with Twemoji 16.0.1.ttf**](./Segoe%20UI%20Emoji%20with%20Twemoji%2016.0.1.ttf)
+    *   [**Segoe UI Emoji with Twemoji 16.0.1.ttf**](https://github.com/quarrel/broken-flag-emojis-win11-twemoji/raw/refs/heads/main/Segoe%20UI%20Emoji%20with%20Twemoji%2016.0.1.ttf)
 
 2.  **Install the font:**
     *   Right-click the downloaded `.ttf` file.
@@ -49,7 +49,7 @@ ttx -o "Segoe UI Emoji with Twemoji 16.0.1.ttf" -m "Twemoji 16.0.1.ttf" emjname.
 
 Then follow the installation steps above.
 
-I've include the current name tables for both Apple Color Emoji and Segoe UI Emoji in the repo.
+I've included the current name tables for both Apple Color Emoji and Segoe UI Emoji in the repo.
 
 The font file name is immaterial to what Windows perceives the font name to be. This also means you can revert this process by installing the original files from C:\Windows\Fonts\ as they are not overwritten.
 
