@@ -16,7 +16,7 @@ There are various browser extensions, user scripts and other hacks that do this,
 
 ## Installation
 
-1.  Download [Segoe UI Emoji with Twemoji 16.0.1.ttf](Segoe%20UI%20Emoji%20with%20Twemoji%2016.0.1.ttf).
+1.  Download [Segoe UI Emoji with Twemoji 16.0.1.ttf](https://github.com/quarrel/broken-flag-emojis-win11-twemoji/raw/refs/heads/main/Segoe%20UI%20Emoji%20with%20Twemoji%2016.0.1.ttf).
 2.  Now you need to install the font. For each font you want to install, right-click it, "Show more options", then "Install", and then again, but "Install for all users". That's what I've done, but I am fairly sure "Install" alone will work. Certainly Chrome picks them up by priority from the user font directory. You will then need to restart your browser, or possibly even reboot your machine.
 
 I do not yet know how robust this is to OS updates.
