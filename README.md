@@ -29,7 +29,7 @@ Most browsers do not support SVG fonts, but Windows 11 does. So while you can in
 
 [Mozilla](https://github.com/mozilla/twemoji-colr) started producing COLR/CPAL-based color OpenType font from the [Twitter Twemoji](https://twitter.github.io/twemoji/) efforts, but Twitter have abandoned this, as have Mozilla. @jdecked, who worked on this at Twitter, has since 2023 kept supporting this project at [jdecked/twemoji](https://github.com/jdecked/twemoji). @win98se has had a long standing PR waiting for Mozilla to merge @jdecked's latest 16.0.1 release, but given the length of time, [his fork of the repo](https://github.com/win98se/twemoji-colr) is probably the best source at the moment to build a COLR/CPAL-based color OpenType font based on the latest twemoji release.
 
-I built [Twemoji 16.0.1.ttf](Twemoji%2016.0.1.ttf) here based on that work.
+I built [Twemoji 16.0.1.ttf](https://github.com/quarrel/broken-flag-emojis-win11-twemoji/raw/refs/heads/main/Twemoji%2016.0.1.ttf) here based on that work.
 
 To pretend this font is the Segoe UI Emoji font I used the font name table from the legit Microsoft version.
 
