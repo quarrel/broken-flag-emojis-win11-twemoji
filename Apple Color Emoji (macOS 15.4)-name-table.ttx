@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.59">
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      © 2011-2025 Apple Inc. All rights reserved.
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Apple Color Emoji
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Apple Color Emoji; 20.4d5e1; 2025-02-26
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Apple Color Emoji
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      20.4d5e1
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      AppleColorEmoji
+    </namerecord>
+    <namerecord nameID="7" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Apple is a trademark of Apple Inc.
+    </namerecord>
+    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Apple Inc.
+    </namerecord>
+    <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Outlines
+    </namerecord>
+    <namerecord nameID="257" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Left Outline
+    </namerecord>
+    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Right Outline
+    </namerecord>
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Silhouettes
+    </namerecord>
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Left Silhouette
+    </namerecord>
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Right Silhouette
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x404">
+      標準體
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x406">
+      Ordinær
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x407">
+      Normal
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      © 2011-2025 Apple Inc. All rights reserved.
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Apple Color Emoji
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      Apple Color Emoji; 20.4d5e1; 2025-02-26
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Apple Color Emoji
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      20.4d5e1
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      AppleColorEmoji
+    </namerecord>
+    <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
+      Apple is a trademark of Apple Inc.
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Apple Inc.
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x40b">
+      Normaali
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x40c">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x410">
+      Regolare
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x411">
+      レギュラー
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x412">
+      일반체
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x413">
+      Regulier
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x414">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x416">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x419">
+      Обычный
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x41d">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x804">
+      常规体
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0xc01">
+      عادي
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0xc0a">
+      Normal
+    </namerecord>
+  </name>
+
+</ttFont>

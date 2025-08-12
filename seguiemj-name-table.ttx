@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.59">
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      © 2024 Microsoft Corporation. All Rights Reserved.
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Segoe UI Emoji
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Segoe UI Emoji
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Segoe UI Emoji
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.51
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SegoeUIEmoji
+    </namerecord>
+    <namerecord nameID="7" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Segoe is a trademark of the Microsoft group of companies.
+    </namerecord>
+    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Microsoft Corporation
+    </namerecord>
+    <namerecord nameID="11" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      http://www.microsoft.com/typography/fonts/
+    </namerecord>
+    <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited.
+    </namerecord>
+    <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      http://www.microsoft.com/typography/fonts/
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x403">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x405">
+      obyčejné
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x406">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x407">
+      Standard
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x408">
+      Κανονικά
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      © 2024 Microsoft Corporation. All Rights Reserved.
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Segoe UI Emoji
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      Segoe UI Emoji
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Segoe UI Emoji
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.51
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      SegoeUIEmoji
+    </namerecord>
+    <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
+      Segoe is a trademark of the Microsoft group of companies.
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Microsoft Corporation
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      http://www.microsoft.com/typography/fonts/
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      Microsoft supplied font. You may use this font to create, display and print content as permitted by the license terms, or terms of use, of the Microsoft product, service or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited.
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      http://www.microsoft.com/typography/fonts/
+    </namerecord>
+    <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
+      😂😍😭💁👍💋🐱🦉🌺🌲🍓🍕🎂🏰🏠🚄🚒🛫🛍
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x40a">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x40b">
+      Normaali
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x40c">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x40e">
+      Normál
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x410">
+      Normale
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x413">
+      Standaard
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x414">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x415">
+      Normalny
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x416">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x419">
+      Обычный
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x41b">
+      Normálne
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x41d">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x41f">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x424">
+      Navadno
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x42d">
+      Arrunta
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x80a">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x816">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0xc0a">
+      Normal
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0xc0c">
+      Normal
+    </namerecord>
+  </name>
+
+</ttFont>
