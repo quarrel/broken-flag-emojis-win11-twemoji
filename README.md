@@ -1,4 +1,4 @@
-# Fonts to fix country flag emoji on Windows 11 in Chrome
+# Fonts to fix country flag emoji on Windows 11
 
 Presumably because they want to ignore any political battles the main Windows 11 emoji font "Segoe UI Emoji" does not include country flags.
 
@@ -12,7 +12,7 @@ I personally prefer the Twemoji versions because of the non-wavy flags, as the w
 
 (I have also included a version of the Twemoji font that has the name table from the Apple Color Emoji font, another commonly used fallback font on the web. Personally, I have both installed, but if you don't have Apple Color Emoji it should always fallback to Segoe UI Emoji on Windows anyway.)
 
-There are various Chrome extensions, user scripts and other hacks that do this, but this way is cleaner and more performant IMHO. I am not the first person to think of this, @perguto for instance has [Country Flag Emojis for Windows](https://github.com/perguto/Country-Flag-Emojis-for-Windows), based on the Noto Emoji, but lots of people seem to suggest that it is no longer working. Copying the full name table, as shown below, rather than just updating the name, may be the reason this is working better for me?
+There are various browser extensions, user scripts and other hacks that do this, but this way is cleaner and more performant IMHO. I am not the first person to think of this, @perguto for instance has [Country Flag Emojis for Windows](https://github.com/perguto/Country-Flag-Emojis-for-Windows), based on the Noto Emoji, but lots of people seem to suggest that it is no longer working. Copying the full name table, as shown below, rather than just updating the name, may be the reason this is working better for me?
 
 ## Installation
 
