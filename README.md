@@ -26,8 +26,6 @@ There are various browser extensions, user scripts and other hacks that do this,
 3.  **Restart your applications:**
     *   Close and reopen your web browser and any other applications where you want to see the new emojis. A full reboot may be required in some cases.
 
-*Note: I do not yet know how robust this is to OS updates.*
-
 ## How to generate these for other freely available emoji fonts?
 
 Twemoji fonts aren't for everyone, so how did I make these?
