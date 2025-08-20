@@ -22,19 +22,21 @@ There are various browser extensions, user scripts and other hacks that do this,
 2.  **Install the font:**
     *   Right-click the downloaded `.ttf` file.
     *   Select **"Install"**. (You may need to click "Show more options" first).
+    
+    NB: In the most recent Insiders Build, I have lost this "Install" option. I have included a powershell script to install fonts at the system level. This came from @Zay's excellent answer on SO [Powershell to Install Fonts on Windows 11](https://stackoverflow.com/questions/77829662/a-powershell-script-to-install-fonts-on-windows-11).
 
 3.  **Restart your applications:**
+    *   Run the powershell script `Broadcast-Fontchange.ps1`. Depending on your environment, you will probably need to run it from an admin shell like this: `powershell.exe -executionpolicy bypass -file Broadcast-Fontchange.ps1`.
+
     *   Close and reopen your web browser and any other applications where you want to see the new emojis. A full reboot may be required in some cases.
 
 ## How to generate these for other freely available emoji fonts?
 
 Twemoji fonts aren't for everyone, so how did I make these?
 
-Most browsers do not support SVG fonts, but Windows 11 does. So while you can install an SVG font on your Windows device, the browsers will use a fallback font. This means you cannot use a font like: [Twemoji Color Font](https://github.com/13rac1/twemoji-color-font).
+Most browsers do not support SVG fonts, but Windows 11 does. So while you can install an SVG font on your Windows device, the browsers will use a fallback font. This means you cannot use a font like [Twemoji Color Font](https://github.com/13rac1/twemoji-color-font) directly.
 
-[Mozilla](https://github.com/mozilla/twemoji-colr) started producing COLR/CPAL-based color OpenType font from the [Twitter Twemoji](https://twitter.github.io/twemoji/) efforts, but Twitter have abandoned this, as have Mozilla. [@jdecked](https://github.com/jdecked), who worked on this at Twitter, has since 2023 kept supporting this project at [jdecked/twemoji](https://github.com/jdecked/twemoji). [@win98se](https://github.com/win93se) has had a long standing PR waiting for Mozilla to merge @jdecked's latest 16.0.1 release, but given the length of time, [his fork of the repo](https://github.com/win98se/twemoji-colr) is probably the best source at the moment to build a COLR/CPAL-based color OpenType font based on the latest twemoji release.
-
-I built [Twemoji 16.0.1.ttf](./Twemoji%2016.0.1.ttf) here based on that work.
+A font that supports both SVG and COLR1 is probably the best of both worlds for Windows 11 users. I built [Twemoji-16.0.1-SVG-COLR1.ttf](./Twemoji-16.0.1-SVG-COLR1.ttf) here based on updating the repo above to 16.0.1 and used @googlefonts [nanoemoji](https://github.com/googlefonts/nanoemoji) to add the COLR1 tables that all browsers support.
 
 To pretend this font is the Segoe UI Emoji font I used the font name table from the legit Microsoft version. To extract the name table, I used tools from the amazing [@fonttools](https://github.com/fonttools) folks. [uv](https://docs.astral.sh/uv/getting-started/installation/)/pip and [lots of other packages](https://github.com/fonttools/fonttools?tab=readme-ov-file#installation) are available for them. I used `uv tool install fonttools`.
 
@@ -53,7 +55,7 @@ The font file name is immaterial to what Windows perceives the font name to be. 
 
 ## Contributing
 
-If you have another open-source emoji font you would like to see included, please [open an issue](https://github.com/quarrel/ColourFlagEmojis/issues/new) and I'll consider adding it.
+If you have another emoji font you would like to see included, please [open an issue](https://github.com/quarrel/ColourFlagEmojis/issues/new) and I'll consider adding it.
 
 
 --Q
