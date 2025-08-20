@@ -24,8 +24,8 @@ There are various browser extensions, user scripts and other hacks that do this,
     *   [**Segoe UI Emoji with Twemoji 16.0.1.ttf**](https://github.com/quarrel/broken-flag-emojis-win11-twemoji/raw/refs/heads/main/Segoe%20UI%20Emoji%20with%20Twemoji%2016.0.1.ttf)
 
 2.  **Install the font:**
-    *   Right-click the downloaded `.ttf` file.
-    *   Select **"Install"**. (You may need to click "Show more options" first).
+    *   Shift-right-click the downloaded `.ttf` file.
+    *   Select **"Install"**. (You may need to click "Show more options", if you weren't holding down shift).
     
     NB: In the most recent Insiders Build, I have lost this "Install" option. I have included a powershell script to install fonts at the system level. This came from @Zay's excellent answer on SO [Powershell to Install Fonts on Windows 11](https://stackoverflow.com/questions/77829662/a-powershell-script-to-install-fonts-on-windows-11).
 
