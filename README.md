@@ -40,22 +40,24 @@ Twemoji fonts aren't for everyone, so how did I make these?
 
 Most browsers do not support SVG fonts, but Windows 11 does. So while you can install an SVG font on your Windows device, the browsers will use a fallback font. This means you cannot use a font like [Twemoji Color Font](https://github.com/13rac1/twemoji-color-font) directly.
 
-A font that supports both SVG and COLR1 is probably the best of both worlds for Windows 11 users. I built [Twemoji-16.0.1-SVG-COLR1.ttf](./Twemoji-16.0.1-SVG-COLR1.ttf) here based on updating the repo above to 16.0.1 and used @googlefonts [nanoemoji](https://github.com/googlefonts/nanoemoji) to add the COLR1 tables that all browsers support.
+A font that supports both SVG and COLR1 is probably the best of both worlds for Windows 11 users. I built an SVG based font from the most recent Unicode 16.0.1 release of Twemoji, based on updating the repo above to 16.0.1 and used @googlefonts [nanoemoji](https://github.com/googlefonts/nanoemoji) to add the COLR1 tables that all browsers support.
 
-To pretend this font is the Segoe UI Emoji font I used the font name table from the legit Microsoft version. To extract the name table, I used tools from the amazing [@fonttools](https://github.com/fonttools) folks. [uv](https://docs.astral.sh/uv/getting-started/installation/)/pip and [lots of other packages](https://github.com/fonttools/fonttools?tab=readme-ov-file#installation) are available for them. I used `uv tool install fonttools`.
+This gave me the base font here: [Twemoji-16.0.1-SVG-COLR1.ttf](./Twemoji-16.0.1-SVG-COLR1.ttf)
+
+To pretend this font is the Segoe UI Emoji font I used the font name table from the legitimate Microsoft version. To extract the name table, I used tools from the amazing [@fonttools](https://github.com/fonttools) folks. [uv](https://docs.astral.sh/uv/getting-started/installation/)/pip and [lots of other packages](https://github.com/fonttools/fonttools?tab=readme-ov-file#installation) are available for them. I used `uv tool install fonttools`.
 
 ```
 # Dump name table from the font we want to pretend to be
 ttx -t "name" -o "emjname.ttx" C:\Windows\Fonts\seguiemj.ttf
 # then merge that name table to font you want to use in place of the above font
-ttx -o "Segoe UI Emoji with Twemoji 16.0.1.ttf" -m "Twemoji 16.0.1.ttf" emjname.ttx
+ttx -o "Segoe UI Emoji with Twemoji 16.0.1.ttf" -m "Twemoji-16.0.1-SVG-COLR1.ttf" emjname.ttx
 ```
 
 Then follow the installation steps above.
 
 I've included the current name tables for both Apple Color Emoji and Segoe UI Emoji in the repo.
 
-The font file name is immaterial to what Windows perceives the font name to be. This also means you can revert this process by installing the original files from C:\Windows\Fonts\ as they are not overwritten.
+The font file name is immaterial to what Windows perceives the font name to be. This also means you can revert this process by re-installing the original files from `C:\Windows\Fonts\` or `%localappdata%\Microsoft\Windows\Fonts\` as they are not overwritten.
 
 ## Contributing
 
