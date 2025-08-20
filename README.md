@@ -1,14 +1,18 @@
 # Fonts to fix country flag emoji on Windows 11
 
-Presumably because they want to ignore any political battles the main Windows 11 emoji font "Segoe UI Emoji" does not include country flags.
+Windows 11, renders country flags like 🇦🇺, which are emoji, as `AU`. This is annoying. We can fix it.
 
-This is annoying as you browse the web, because lots of people like to use country flags, particularly on places like BlueSky, Twitter, etc, with 🇦🇺 being rendered as `AU` on Windows 11.
+Presumably, this is because they can't face the many political battles in the many countries in which they operate if they did, so the main Windows 11 emoji font "Segoe UI Emoji" does not include country flags.
 
-This repo includes fonts with emojis based on the Twemoji SVGs, maintained by [@jdecked](https://github.com/jdecked) at [jdecked/twemoji](https://github.com/jdecked/twemoji), but with a name table that allows it to pretend to Windows programs that they are Segoe UI Emoji. (Note, that this would not be fooling Microsoft, who digitally sign their fonts, but it seems to work none-the-less.)
+This is annoying as you browse the web, because lots of people like to use country flags, particularly on social media sites like BlueSky, Twitter, etc.
+
+This repo includes emoji fonts that fix this issue. Based on the Twemoji SVGs, maintained by [@jdecked](https://github.com/jdecked) at [jdecked/twemoji](https://github.com/jdecked/twemoji), but with a name table that allows it to pretend to Windows programs that they are Segoe UI Emoji. (NB, that this would not be fooling Microsoft, who digitally sign their fonts, but it seems to work none-the-less.)
 
 This works for me on the current Insiders build Version 25H2 (26200.5742) in August 2025.
 
-I personally prefer the Twemoji versions because of the non-wavy flags, as the wavy flags of Apple and Google's Noto Emoji font render poorly when sized small.
+I personally prefer the Twemoji versions because of the non-wavy flags, as the wavy flags of Apple and Google's Noto Emoji font render poorly when sized small, as is often the case on social media.
+
+![Wavy or not?](<./Emoji Styles.png>)
 
 I have also included a version of the Twemoji font that has the name table from the Apple Color Emoji font, another commonly used fallback font on the web. Personally, I have both installed, but if you don't have Apple Color Emoji it should always fallback to Segoe UI Emoji on Windows anyway.
 
